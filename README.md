@@ -123,12 +123,59 @@ https://Ip_address:7767
 username : admin
 pasword: admin
 ```
-- Đến buơc này bạn sẽ nhận đuợc thông báo 
+- Đến buơc này bạn sẽ nhận đuợc thông báo:
+
+<img src="http://i.imgur.com/ABdQyFn.png">
+
+- Để vào được bằng tài khoản và mật khẩu trên , cài gói xác thực password cho webui:
+```
+shinken install auth-cfg-password
+```
+
+- Sửa  cấu hình /etc/shinken/modules/webui.auth-cfg-password
+
+```
+sed -i "s/modules/ modules    auth-cfg-password/g" /etc/shinken/modules/webui.auth-cfg-password
+
+```
+- Khởi động lại  dịch vụ shinken:
+
+```
+/etc/init.d/shinken restart
+```
+
+- Kết thúc cài đặt cho server node.
 
 
+2. Cài đặt cho client node :
 
 
+- Cài đặt gói giao thức SNMP:
 
+```
+sudo apt-get install snmpd
+```
+- Chỉnh sửa file cấu hình /etc/snmp/snmpd.conf
+
+```
+sed -i "s/agentAddress  udp:127.0.0.1:161/#agentAddress  udp:127.0.0.1:161/g"  /etc/snmp/snmpd.conf
+sed -i "s/rocommunity public/rocommunity DOmonitoring/g"   /etc/snmp/snmpd.conf
+
+```
+- khởi động lại dịch vụ smnp
+```
+ service snmpd restart
+
+```
+
+#### IV. Giao diện ứng dụng:
+
+- giao diện chính :
+
+<img src="http://i.imgur.com/OJgmGDg.png" >
+
+
+- 
 
 
 
