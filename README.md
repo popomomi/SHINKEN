@@ -22,7 +22,7 @@ SHINKEN
 #### III.CÀI ĐẶT SHINKEN:
 
 #### 1.Mô hình cài đặt:
-<img src="">
+<img src="http://i.imgur.com/itGkaEh.png">
 #### 2.Thông tin thiêt bị:
 
 - Server : 
