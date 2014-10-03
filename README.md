@@ -25,17 +25,19 @@ SHINKEN
 <img src="">
 #### 2.Thông tin thiêt bị:
 
-- Server : OS : ubuntu-1404.1 server
-           CPU: 4 CPU,có tích ảo hóa
-           RAM: 1GB
-           HDD: 40GB
-           1 NIC briged
+- Server : 
+           OS : ubuntu-1404.1 server <br>
+           CPU: 4 CPU,có tích ảo hóa <br>
+           RAM: 1GB <br>
+           HDD: 40GB <br>
+           1 NIC briged <br>
 
-- Client:  OS : ubuntu-1404.1 server
-           CPU: 4 CPU,có tích ảo hóa
-           RAM: 1GB
-           HDD: 40GB
-           1 NIC briged
+- Client:  
+          OS : ubuntu-1404.1 server<br>
+           CPU: 4 CPU,có tích ảo hóa<br>
+           RAM: 1GB<br>
+           HDD: 40GB<br>
+           1 NIC briged<br>
                 
 
 #### 3.Cài đặt shinken:
