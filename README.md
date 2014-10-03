@@ -175,7 +175,10 @@ sed -i "s/rocommunity public/rocommunity DOmonitoring/g"   /etc/snmp/snmpd.conf
 <img src="http://i.imgur.com/OJgmGDg.png" >
 
 
-- 
+#### V. Tài liệu tham khảo:
+
+[shiken-monitorint.org] (http://www.shinken-monitoring.org/)
+[shinken.readthedocs.org] (http://shinken.readthedocs.org)
 
 
 
