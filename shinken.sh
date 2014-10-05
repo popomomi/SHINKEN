@@ -6,7 +6,7 @@ echo "------------------Shell cai dat shinker---------------------------"
 echo " --------------------Cap nhat he thong---------------------------"
 
 sudo apt-get update && apt-get -y upgrade && apt-get -y dist upgrade
-
+sleep 2
 echo "-------------------Tao user shinker--------------------"
 sudo adduser shinker
 
@@ -18,6 +18,7 @@ echo "-------------cai dat cac goi------------------------------------------"
 sudo apt-get install -y python-pycurl python-setuptools python-pip
 
 sudo apt-get update
+sleep 2
 
 echo "----------------------------------------------------------------------"
 
