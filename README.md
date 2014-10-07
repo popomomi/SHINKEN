@@ -43,20 +43,20 @@ SHINKEN
 #### 3.Cài đặt shinken:
 - Cài đặt shinken trên server node :
 ```
-sudo adduser shinker
+sudo adduser shinken
 ```
 - Cài đặt các gói 
 ```
 sudo apt-get install -y python-pycurl python-setuptools python-pip
 
 ```
-- Cài dat shinken
+- Cài đặt shinken
 
 ```
 sudo pip install shinken
 ```
 
-- Bật lại dịch vụ shinker
+- Bật lại dịch vụ shinken
 ```
 /etc/init.d/shinken start
 
