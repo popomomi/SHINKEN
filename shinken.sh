@@ -1,10 +1,10 @@
 #! /bin/bash
 
-echo "------------------Shell cai dat shinker---------------------------"
+echo "------------------Shell cai dat shinken---------------------------"
 echo " --------------------Cap nhat he thong---------------------------"
 sudo apt-get update && apt-get -y upgrade && apt-get -y dist upgrade
 sleep 2
-echo "-------------------Tao user shinker--------------------"
+echo "-------------------Tao user shinken--------------------"
 sudo adduser shinker
 sleep 3
 echo"----------------------------------------------------------------------"
@@ -17,7 +17,7 @@ echo "--------cai dat shinken---------------------------------------"
 sudo pip install shinken
 sleep 3
 echo "------------------------------------------------------------------------"
-echo "-------------Bat dich du shinker-----------------------------------"
+echo "-------------Bat dich du shinken-----------------------------------"
 /etc/init.d/shinken start
 echo "------------------Check thong tin-------------------------------------"
 ps -fu shinken
