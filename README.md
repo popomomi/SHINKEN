@@ -50,10 +50,10 @@ sudo adduser shinker
 sudo apt-get install -y python-pycurl python-setuptools python-pip
 
 ```
-- Cài dat shinker
+- Cài dat shinken
 
 ```
-sudo pip install shinker
+sudo pip install shinken
 ```
 
 - Bật lại dịch vụ shinker
@@ -73,9 +73,11 @@ curl http://localhost:7770/
 ```
 su - shinken
 ```
+
 - Cài đặt các gói linux-ssh
 
 ```
+shinken --init
 shinken install linux-ssh
 ```
 - Cài đặt gói  python-paramiko
