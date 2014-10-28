@@ -151,35 +151,14 @@ sed -i "s/modules/ modules    auth-cfg-password/g" /etc/shinken/modules/webui.au
 - Kết thúc cài đặt cho server node.
 
 
-2. Cài đặt cho client node :
-
-
-- Cài đặt gói giao thức SNMP:
-
-```
-sudo apt-get install snmpd
-```
-- Chỉnh sửa file cấu hình /etc/snmp/snmpd.conf
-
-```
-sed -i "s/agentAddress  udp:127.0.0.1:161/#agentAddress  udp:127.0.0.1:161/g"  /etc/snmp/snmpd.conf
-sed -i "s/rocommunity public/rocommunity DOmonitoring/g"   /etc/snmp/snmpd.conf
-
-```
-- khởi động lại dịch vụ smnp
-```
- service snmpd restart
-
-```
-
-#### IV. Giao diện ứng dụng:
+#### III. Giao diện ứng dụng:
 
 - giao diện chính :
 
 <img src="http://i.imgur.com/OJgmGDg.png" >
 
 
-#### V. Tài liệu tham khảo:
+#### IV. Tài liệu tham khảo:
 
 [shiken-monitorint.org] (http://www.shinken-monitoring.org/)
 [shinken.readthedocs.org] (http://shinken.readthedocs.org)
